@@ -1,0 +1,16 @@
+.me {
+  color: rgb(22, 146, 218);
+}
+.nav-link {
+  margin-left: 5%;
+  font-size: large;
+}
+.navbar-brand {
+  margin-left: 5%;
+}
+@media only screen and (min-width: 991px) {
+  .navbar-nav {
+    margin-left: 70%;
+    font-size: large;
+  }
+}

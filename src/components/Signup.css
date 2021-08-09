@@ -1,0 +1,55 @@
+.container {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 3px;
+  box-shadow: 2px 2px 6px 6px #c2bebe;
+}
+.Signup-header {
+  padding-top: 5%;
+}
+.formgroup {
+  margin-top: 5%;
+}
+.name,
+.email,
+.password,
+.cpassword {
+  border: 0px;
+  border-bottom: 2px solid black;
+  outline: none;
+  width: 90%;
+}
+.already {
+  text-decoration: none;
+  display: block;
+  margin-left: 15%;
+  margin-top: 10%;
+  color: crimson;
+}
+.button_register {
+  margin-top: 20%;
+  margin-left: 20%;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #8fdd12;
+  color: white;
+  height: 10%;
+  width: 50%;
+}
+label {
+  margin-right: 2%;
+  font-size: large;
+}
+.signup_image {
+  height: fit-content;
+  width: 20rem;
+}
+.register-form {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 565px) {
+  .register-form {
+    flex-direction: column;
+  }
+}
